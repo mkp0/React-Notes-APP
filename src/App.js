@@ -25,9 +25,9 @@ export default function App() {
 
     <div className="row">
       {arr.map((a,b)=>{
-        return (<div className="col s3">
-          <div style={{margin:"2rem 2rem 0 2rem",padding:"1rem 0",display:"block",width:"15rem",textAlign:"center",overflow:"hidden"}} className='deep-purple lighten-2'>{a[0]}</div>
-          <div style={{margin:"0rem 2rem 2rem 2rem",padding:"1rem 0",display:"block",width:"15rem",textAlign:"center",overflow:"hidden" ,minHeight:"10rem" }} className='purple lighten-3'>{a[1]}</div>
+        return (<div className="col  l3 m6 s12 ">
+          <div style={{margin:"2rem 2rem 0 2rem",padding:"1rem 0",display:"block",minWidth:"15rem",textAlign:"center",overflow:"hidden"}} className='deep-purple lighten-2'>{a[0]}</div>
+          <div style={{margin:"0rem 2rem 2rem 2rem",padding:"1rem 0",display:"block",minWidth:"15rem",textAlign:"center",overflow:"hidden" ,minHeight:"10rem" }} className='purple lighten-3'>{a[1]}</div>
         </div>)
       })}
     </div>
